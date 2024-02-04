@@ -1,0 +1,62 @@
+body {
+    width: 98vw;
+    height: 89vw;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header{
+    display: flex;
+    width: 98vw;
+    height: 6vw;
+    background-color: #ffcd00;
+    justify-content: center;
+}
+
+.header2{
+    display: flex;
+    background-color: #ffcd00;
+    height: 10vw;
+    width: 98vw;
+}
+
+.container {
+    height: 10vw;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+title{
+    height: 2vw;
+    width: 2vw;
+}
+
+h1 {
+    width: 30vw;
+    height: 2vw;
+}
+
+input[type="text"],
+button {
+    height: 40px;
+    width: 16vw;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+button {
+    width: 11vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+}
+
+
+button:hover {
+    background-color: #005aa6;
+}
